@@ -101,20 +101,24 @@ button:focus, button a:focus{
   width: 80px;
   line-height: 30px;
   text-align: center;
+}
+
+.menu_item {
   text-decoration: none;
   color:#000000;
 }
 
-#menu a:hover,a:active,a:visited,a:link{
+#menu a:hover,a:visited,a:link{
   text-decoration:none;
   color: #000000;
+} 
+
+.menu_item_active {
+  display: block;
+  background-color: #EFBC9C;
+  border-radius: 10px;
+  color:#514B44;
 }
-
-#menu a:hover{
-  color: #514B44;
-}
-
-
 
 .hero-container {
   margin: auto 0;
@@ -139,8 +143,6 @@ button:focus, button a:focus{
 }
 
 .content-container {
-  /* margin-top: 0; */
-  /* margin: 0 0; */
   position: relative;
 }
 
@@ -205,7 +207,6 @@ button:focus, button a:focus{
 }
 
 .card{
-  /* margin: 0 20px; */
   justify-self: center;
   align-self: center;
   background-color: #fff;
